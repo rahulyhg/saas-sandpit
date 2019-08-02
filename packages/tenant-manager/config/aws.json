@@ -1,0 +1,5 @@
+  {
+    "sslEnabled": "true",
+    "region": "ap-southeast-2",
+    "signatureVersion": "v4"
+  }

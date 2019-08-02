@@ -1,0 +1,8 @@
+{
+  "name": "saas-sandpit",
+  "description": "saas playground for storage and tenant isolation",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  }
+}

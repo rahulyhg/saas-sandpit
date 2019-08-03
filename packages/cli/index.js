@@ -1,4 +1,5 @@
 const inquirer = require('inquirer');
+const identityManager = require('../identity-manager')
 const tenantManager = require('../tenant-manager')
 const questions = [
   {'type': 'string',

@@ -9,6 +9,7 @@ export class Pit1Stack extends cdk.Stack {
     new s3.Bucket(this, 'pit1')
 
     const upAttr = cognito.UserPoolAttribute
+    // wip
     const userPoolAttrs = [
       upAttr.EMAIL,
       upAttr.FAMILY_NAME,
@@ -34,7 +35,6 @@ export class Pit1Stack extends cdk.Stack {
       "role"
     ]
 
-    const userPool = new cognito.UserPool(this, 'saasOnboard', userPoolProps)
-
+    const userPool = new cognito.UserPool(this, 'saasOnboard', userPoolProps, )
   }
 }
